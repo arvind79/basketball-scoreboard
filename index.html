@@ -17,19 +17,19 @@
 
                 <div class="score-box">
                     <div class="score">
-                        <span>0</span>
+                        <span id="home-score">0</span>
                     </div>
                 </div>
 
                 <div class="btn-container">
                     <div>
-                        <button class="btn-size">+1</button>
+                        <button class="btn-size" onclick="incHomeOne()">+1</button>
                     </div>
                     <div>
-                        <button class="btn-size">+2</button>
+                        <button class="btn-size" onclick="incHomeTwo()">+2</button>
                     </div>
                     <div>
-                        <button class="btn-size">+3</button>
+                        <button class="btn-size" onclick="incHomeThree()">+3</button>
                     </div>
                 </div>
             </section>
@@ -39,23 +39,26 @@
 
                 <div class="score-box">
                     <div class="score">
-                        <span>10</span>
+                        <span id="away-score">0</span>
                     </div>
                 </div>
 
                 <div class="btn-container">
                     <div>
-                        <button class="btn-size">+1</button>
+                        <button class="btn-size" onclick="incAwayOne()">+1</button>
                     </div>
                     <div>
-                        <button class="btn-size">+2</button>
+                        <button class="btn-size" onclick="incAwayTwo()">+2</button>
                     </div>
                     <div>
-                        <button class="btn-size">+3</button>
+                        <button class="btn-size" onclick="incAwayThree()">+3</button>
                     </div>
                 </div>
             </section>
 
         </div>
+
+        <script src="index.js"></script> 
+
     </body>
 </head>
